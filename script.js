@@ -4,3 +4,8 @@ function toggleMenu() {
    menu.classList.toggle("open");
    icon.classList.toggle("open");
  }
+
+ function toggleMenu() {
+   var menuBar = document.getElementById('menuBar');
+   menuBar.classList.toggle('active');
+}
